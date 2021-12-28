@@ -1,5 +1,5 @@
 # UI-Calculator
-Simple Calculator With Clean UI.
+Simple Santali Calculator forked from Simple Calculator With Clean UI
 <br>
 <a href="https://code-recursion.github.io/UI-Calculator">view live version</a>
 ## `Screen Shot`
@@ -36,5 +36,4 @@ For any query or build issues feel free to reach out the maintainers:<br>
 [Ajay](https://github.com/Code-Recursion)
  
 ### License
-
-Distributed under the MIT License. See [`LICENSE`](https://github.com/Code-Recursion/UI-Calculator/blob/master/LICENSE.md) for more information.
+Distributed under the MIT License. See [`LICENSE`](https://github.com/Code-Recursion/UI-Calculator/blob/master/LICENSE.md) for more information, except for the font file Ol_Chiki_Regular.ttf (a freeware font) made by [N. C. Murmu & R. C. Hansdah](https://wesanthals.tripod.com/id19.html) which restricts commercial use of the font. Here the font is used for educational purpose only.
