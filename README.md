@@ -1,4 +1,4 @@
-# UI-Calculator
+# Santali UI-Calculator
 Simple Santali Calculator forked from Simple Calculator With Clean UI
 <br>
 <a href="https://code-recursion.github.io/UI-Calculator">view live version</a>
