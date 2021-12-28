@@ -24,7 +24,7 @@ function calculate(operation) {
   if ( result === 0 || isFinite(result) && Boolean(result) ) {
     document.getElementById('display').value = result;
   } else {
-    document.getElementById('display').value = 'Invalid operation';
+    document.getElementById('display').value = 'ᱵᱷᱩᱞ ᱦᱩᱭᱮᱱᱟ';
   }
 
 } 
