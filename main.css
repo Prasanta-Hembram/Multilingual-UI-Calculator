@@ -12,11 +12,6 @@ html, body {
     overflow-x: hidden;
 }
 
-@font-face {
-   font-family: myFirstFont;
-   src: url(Ol_Chiki_Regular.ttf);
-}
-
 /* used white colour for foreground so that disabled button is not visible to the screen */
 button:disabled{
     color: #fa0000;
@@ -32,7 +27,7 @@ button:disabled:hover{
 }
 
 body {
-    font-family: myFirstFont;
+    font-family: 'Noto Sans Ol Chiki', sans-serif;	
     background-image: linear-gradient(to left, lightpink, lightblue);
 }
 
@@ -87,7 +82,7 @@ input {
 }
 
 button {
-    font-family: myFirstFont;
+    font-family: 'Noto Sans Ol Chiki', sans-serif;	
     font-weight: bolder;
     font-size: 22px;
     color:"black";
