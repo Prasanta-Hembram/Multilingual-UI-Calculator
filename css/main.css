@@ -1,0 +1,83 @@
+    body {
+       background-image: linear-gradient(to left, rgb(216, 39, 66), rgb(99, 199, 233));
+       font-size: 22px;
+       padding: 10px;
+       font-family:Verdana;
+       letter-spacing:0px;
+   }
+
+
+   
+    /* it Removes Outline of all Button  */
+   *:focus {
+       outline: 0 !important;
+   }
+   
+   button {
+     
+       font-weight: bolder;
+       font-size: 22px;
+       color:"black";
+       background: white;
+       border: none;
+       margin: 7px;
+       padding: 2px;
+       outline: none;
+       border-radius: 50%;
+       width: 46px;
+       height: 45px;
+       line-height:normal;
+   }
+   
+   button:nth-child(1) {
+       background: lightgrey;
+   }
+   
+   button:hover {
+       background: rgb(247 230 236);
+   }
+   
+   
+   /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown_hover */
+   
+   /* set the position of dropdown */
+   .dropdown {
+       position: relative;
+       display: inline-block;
+   }
+   /* set the size and position of button on web */
+   .buttonD {
+       padding: 10px;
+       font-size: 13px;
+       font-family: monospace;
+       display:inline-block
+   }
+   /* provide css to background of list items */
+   #list-items {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 185px;
+      z-index: 1;
+   }
+   /* provide css to list items */ 
+   #list-items a {
+       display: block;
+       font-size: 18px;
+       background-color: #ddd;
+       color: black;
+       text-decoration: none;
+       padding: 10px;
+   };
+ 
+   .con1 {
+    font-size: 1px;
+   }
+
+   
+   
+   
+   
+   
+   
+   

@@ -1,0 +1,189 @@
+html, body {
+    
+ -webkit-user-select: none; /* Safari */        
+ -moz-user-select: none; /* Firefox */
+ -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+    
+    height: 100%;
+    width:100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(Ol_Chiki_Regular.ttf);
+}
+
+@font-face {
+   font-family: myFirstFont1;
+   src: url(saghana.ttf);
+}
+
+/* used white colour for foreground so that disabled button is not visible to the screen */
+button:disabled{
+    color: #fa0000;
+}
+/* made the hover background color to white so the annoying hover in empty space is removed */
+
+button:disabled:hover{
+    color:white;
+    background-color:rgb(128, 255, 255);
+}
+.noHover{
+    pointer-events: none;
+}
+
+
+body {
+    background-image: linear-gradient(to left, lightpink, lightblue);
+}
+
+h1 {
+    padding: 25px;
+    margin: 20px;
+    text-align: center;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 480px;
+    width: 340px;
+    box-shadow: 6px 8px 2px grey;
+    background: white;
+    border-radius: 10px;
+}
+
+.output {
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+
+input {
+    text-align: end;
+    padding: 8px;
+    font-size: 25px;
+}
+
+#display {
+    outline: none;
+    width: 280px;
+    height: 40px;
+    background: #f1f1f1;
+    border-radius: 10px;
+    border-color: none;
+    border: none;
+}
+
+#sonata {
+    outline: none;
+    width: 280px;
+    height: 40px;
+    background: #f1f1f1;
+    border-radius: 10px;
+    border-color: none;
+    border: none;
+}
+
+.keyboard {
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+
+ /* it Removes Outline of all Button  */
+*:focus {
+    outline: 0 !important;
+}
+
+button {
+  
+    font-weight: bolder;
+    font-size: 22px;
+    color:"black";
+    background: white;
+    border: none;
+    margin: 7px;
+    padding: 2px;
+    outline: none;
+    border-radius: 50%;
+    width: 46px;
+    height: 45px;
+    line-height:normal;
+}
+
+button:nth-child(1) {
+    background: lightgrey;
+}
+
+button:nth-child(2) {
+    font-weight: 550;
+    background: lightgrey;
+}
+
+button:nth-child(3) {
+    background: lightgrey;
+}
+
+button:nth-child(4) {
+    background: lightgreen;
+}
+
+button:nth-child(8) {
+    background: aqua;
+}
+
+button:nth-child(12) {
+    padding: 0px;
+    font-size: 30px;
+    font-family: monospace;
+    background: orange;
+}
+
+button:nth-child(16) {
+    background: pink;
+    font-size: 25px;
+}
+
+button:nth-child(20) {
+    background: yellow;
+}
+
+button:hover {
+    background: rgb(247 230 236);
+}
+
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown_hover */
+
+/* set the position of dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+/* set the size and position of button on web */
+.buttonD {
+    padding: 10px;
+    font-size: 13px;
+    font-family: monospace;
+    display:inline-block
+}
+
+.homei {
+    display:inline-block
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,99 @@
+<!-- https://stackoverflow.com/questions/49475935/on-button-click-focus-input-in-javascript/49475954 -->
+<!-- Two functions in a button click (silly) - https://stackoverflow.com/questions/16025138/call-two-functions-from-same-onclick -->
+
+<!DOCTYPE html>
+<html lang="sat">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>ᱠᱟᱞᱠᱩᱞᱮᱴᱚᱨ</title>
+
+    <link type="text/css" href="main.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="homei">
+        <a href="../../index.html">Home</a>
+    </div>
+
+
+
+
+    <br>
+    <div class="container">
+    <center>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <form name="txtBox" autocomplete="off">
+                            <input onKeyUp="startText();" style="font-size: 14pt;"
+                                onClick="startText();" name="box1" rows="7" onSelect="startText();" id="display"
+                                type="hidden" name="answer" autofocus></input>
+                                <br>
+                            <input id="sonata" style="font-size: 14pt;" name="box2" rows="7" onkeydown="return false" ></input>
+                        </form>
+                        <hr />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+
+    <div class="keyboard">
+
+        <button id="CE" onclick="document.getElementById('display').value = display.value.slice(0,-1);startText();">ᱢ</button>
+
+        <button id="clear" onclick="document.getElementById('display').value ='';startText();">ᱯ</button>
+
+        <button id="div" onclick="document.getElementById('display').value += '/';startText();">/</button>
+
+        <button id="mod" onclick="document.getElementById('display').value += '%';startText();">%</button>
+
+        <button id="one" onclick="document.getElementById('display').value +='1';startText();">1</button>
+
+        <button id="two" onclick="document.getElementById('display').value += '2';startText();">2</button>
+
+        <button id="three" onclick="document.getElementById('display').value +='3';startText();">3</button>
+
+        <button id="add" onclick="document.getElementById('display').value +='+';startText();">+</button>
+   
+
+        <button id="four" onclick="document.getElementById('display').value +='4';startText();">4</button>
+
+        <button id="five" onclick="document.getElementById('display').value +='5'; startText()">5</button>
+
+        <button id="six" onclick="document.getElementById('display').value +='6';startText();">6</button>
+
+        <button id="minus" onclick="document.getElementById('display').value +='-';startText();">-</button>
+
+        <button id="seven" onclick="document.getElementById('display').value +='7';startText();">7</button>
+
+        <button id="eight" onclick="document.getElementById('display').value +='8';startText();">8</button>
+
+        <button id="nine" onclick="document.getElementById('display').value +='9';startText();">9</button>
+
+        <button id="multiply" onclick="document.getElementById('display').value +='*';startText();">*</button>
+        <!-- disableb the button so that the hover effect to be changed for disableb buttons -->
+        <button disabled class="noHover"></button>
+
+        <button id="zero" onclick="document.getElementById('display').value +='0';startText();">0</button>
+
+        <button id="power" onclick="document.getElementById('display').value +='**';startText();">^</button>
+
+        <button id="equal" type="submit" onclick="calculate(display.value);startText();">=</button>
+        
+
+    </div>
+   </div>
+
+    <script type="text/javascript" src="script.js">
+    </script>
+</body>
+
+</html>

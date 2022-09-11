@@ -17,6 +17,11 @@ html, body {
    src: url(Ol_Chiki_Regular.ttf);
 }
 
+@font-face {
+   font-family: myFirstFont1;
+   src: url(saghana.ttf);
+}
+
 /* used white colour for foreground so that disabled button is not visible to the screen */
 button:disabled{
     color: #fa0000;
@@ -31,8 +36,8 @@ button:disabled:hover{
     pointer-events: none;
 }
 
+
 body {
-    font-family: myFirstFont;
     background-image: linear-gradient(to left, lightpink, lightblue);
 }
 
@@ -46,7 +51,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: auto;
-    height: 410px;
+    height: 480px;
     width: 340px;
     box-shadow: 6px 8px 2px grey;
     background: white;
@@ -75,29 +80,39 @@ input {
     border: none;
 }
 
+#sonata {
+    outline: none;
+    width: 280px;
+    height: 40px;
+    background: #f1f1f1;
+    border-radius: 10px;
+    border-color: none;
+    border: none;
+}
+
 .keyboard {
     position: relative;
     top: 40px;
     text-align: center;
 }
 
- /* it Removes Outline of all Button */
+ /* it Removes Outline of all Button  */
 *:focus {
     outline: 0 !important;
 }
 
 button {
-    font-family: myFirstFont;
+  
     font-weight: bolder;
     font-size: 22px;
     color:"black";
     background: white;
     border: none;
-    margin: 6px;
-    padding: 12px;
+    margin: 7px;
+    padding: 2px;
     outline: none;
     border-radius: 50%;
-    width: 49px;
+    width: 46px;
     height: 45px;
     line-height:normal;
 }
@@ -142,3 +157,33 @@ button:nth-child(20) {
 button:hover {
     background: rgb(247 230 236);
 }
+
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown_hover */
+
+/* set the position of dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+/* set the size and position of button on web */
+.buttonD {
+    padding: 10px;
+    font-size: 13px;
+    font-family: monospace;
+    display:inline-block
+}
+
+.homei {
+    display:inline-block
+}
+
+
+
+
+
+
+
+
+
+

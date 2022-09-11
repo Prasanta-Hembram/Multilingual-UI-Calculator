@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multi Script Calculator</title>
+    <link type="text/css" href="page/css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<p id="tio"><a href="page/eng.html">Roman Calculator</a></p>
+<p class="tio"><a href="page/hin.html">Devanagari Calculator</a></p>
+<p class="tio"><a href="page/sat.html">Ol Chiki Calculator</a></p>
+
+</body>
+</html>
