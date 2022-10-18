@@ -1,10 +1,10 @@
 # Multiscript Web UI-Calculator
 Simple Multiscript Web Calculator forked from Simple Calculator With Clean UI.
-# In short why we should use Calculator in Multiscript
-* People rarely use of numbers in their native language (having their own script).
-* People can promote their language by making interesting applications.
-* Rarely you can find a open source calculator with multiscipt.
-* 💓 your mother language. 
+# Calculator in Multiscript
+* It will increase use of numbers in native language script (language having their own script).
+* An open source calculator that supports multiscipt is uncommon.
+* Try this unique calculator in your own your mother language. 
+* Show your 💓 towards your mother tongue by contributing something, add features and making it more popular.  
 ## Contributing
 
 In general, we follow the "fork-and-pull" Git workflow.
@@ -13,7 +13,7 @@ In general, we follow the "fork-and-pull" Git workflow.
 2. Clone the project to your own machine
 3. Work on your fork
     1. Make your changes and additions
-        - If you are adding a new language (but try to find languages having unique ISO 15924, [find script codes here in Wikipedia](https://en.wikipedia.org/wiki/Script_(Unicode))) to the project then create a folder inside **locales** with a valid three language ISO code. 
+        - If you are adding a new language (but try to find languages having unique ISO 15924, [find script codes here in Wikipedia](https://en.wikipedia.org/wiki/Script_(Unicode))) to the project then create a folder inside **locales** with a valid ISO 639-2 Code. 
 		- Then inside the newly created folder three files must be there, locale.html (replace locale with three letter language code), main.css, and script.js
 		- You can copy all these three files from the **eng** Template folder and place them inside yours.
 		- locale.html - Translate these words in your language: Calculator, Home and numbers.
