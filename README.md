@@ -24,10 +24,9 @@ In general, we follow the "fork-and-pull" Git workflow.
     2. Change or add tests if needed using VS Code live server.
     3. Add changes to README.md if needed
 4. Commit changes to your own branch
-5. **Make sure** you merge the latest from "upstream" and resolve conflicts if there is any
-6. Repeat step 3(3) above
-7. Push your work back up to your fork
-8. Submit a Pull request so that we can review your changes
+5. Repeat step 3(3) above
+6. Push your work back up to your fork
+7. Submit a Pull request so that we can review your changes
 
 ### License
 Distributed under the MIT License. See [`LICENSE`](https://github.com/Code-Recursion/UI-Calculator/blob/master/LICENSE.md).
