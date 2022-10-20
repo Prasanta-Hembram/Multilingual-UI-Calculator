@@ -15,6 +15,10 @@ function startText() {
   document.txtBox.box2.value=text;
 
 }
+function sqrt() {
+  var val = document.getElementById('display').value;
+  document.getElementById('display').value = 'Math.sqrt(' + val + ')';
+}
 
 var input = document.getElementById("display");
 
