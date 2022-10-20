@@ -42,7 +42,8 @@ h1 {
     align-items: center;
     margin: auto;
     height: 480px;
-    width: 340px;
+    width: 310px;
+    box-sizing: border-box;
     box-shadow: 6px 8px 2px grey;
     background: white;
     border-radius: 10px;
@@ -167,6 +168,9 @@ button:hover {
 .homei {
     display:inline-block
 }
+
+
+
 
 
 
