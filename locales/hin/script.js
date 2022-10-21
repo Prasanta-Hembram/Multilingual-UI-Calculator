@@ -32,6 +32,10 @@ input.addEventListener("keyup", function(event) {
   }
 });
 
+function sqrt() {
+  var val = document.getElementById('display').value;
+  document.getElementById('display').value = 'Math.sqrt(' + val + ')';
+}
 // Function to calculate the result
 function calculate(operation) {
   let result;
