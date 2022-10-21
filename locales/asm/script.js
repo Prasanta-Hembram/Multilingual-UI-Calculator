@@ -16,6 +16,11 @@ text = text.replace(/1/g, "1");
 
 }
 
+function sqrt() {
+  var val = document.getElementById('display').value;
+  document.getElementById('display').value = 'Math.sqrt(' + val + ')';
+}
+
 var input = document.getElementById("display");
 
 //script to detect if enter button is clicked to evaluate the result
