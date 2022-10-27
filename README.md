@@ -27,6 +27,11 @@ In general, we follow the "fork-and-pull" Git workflow.
 5. Repeat step 3(3) above.
 6. Push your work back up to your fork.
 7. Submit a Pull request so that we can review your changes.
+## Contributors
+
+<a href="https://github.com/Prasanta-Hembram/Multiscript-UI-Calculator/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Prasanta-Hembram/Multiscript-UI-Calculator" />
+</a>
 
 ### License
 Distributed under the MIT License. See [`LICENSE`](https://github.com/Code-Recursion/UI-Calculator/blob/master/LICENSE.md).
