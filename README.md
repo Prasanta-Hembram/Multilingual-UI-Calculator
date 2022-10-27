@@ -22,11 +22,11 @@ In general, we follow the "fork-and-pull" Git workflow.
 		- After making all the changes move out of the locals folder and edit index.html file and find div element with id="list-items", and add your language with path. Also, don't forget to add your language to unordered list below.
 		- If you are making changes to codes may it be minor or major please don't forget to add inline comments.
     2. Change or add tests if needed using VS Code live server.
-    3. Add changes to README.md if needed
-4. Commit changes to your own branch
-5. Repeat step 3(3) above
-6. Push your work back up to your fork
-7. Submit a Pull request so that we can review your changes
+    3. Add changes to README.md if needed.
+4. Commit changes to your own branch.
+5. Repeat step 3(3) above.
+6. Push your work back up to your fork.
+7. Submit a Pull request so that we can review your changes.
 
 ### License
 Distributed under the MIT License. See [`LICENSE`](https://github.com/Code-Recursion/UI-Calculator/blob/master/LICENSE.md).
