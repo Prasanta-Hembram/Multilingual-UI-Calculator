@@ -5,20 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale = 1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Multi Script Calculator</title>
+     <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Bootstrap-Scripts -->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <link type="text/css" href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <div class="dropdown">
-        <button onclick="show_hide()" class="buttonD">L10N</button>
-            <!-- dropdown list items will show when we click the drop button --> 
-            <div id="list-items">
-            <a href="locales/ben/ben.html">Bengali</a>
-            <a href="locales/eng/locale.html">English</a>
-            <a href="locales/hin/hin.html">Hindi(Devanagari)</a>
-            <a href="locales/ory/ory.html">Odiya</a>
-            <a href="locales/sat/sat.html">Santali(Ol Chiki)</a>
-            </div>
-    </div>
+
+    <section id="title" class="colored-section">
+        <div class="container-fluid">
+          
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" >
+                <div class="dropdown">
+                    <button onclick="show_hide()" class="buttonD">L10N</button>
+                    
+                       <!-- < -- dropdown list items will show when we click the drop button -->  
+                         <div id="list-items">
+                        <a href="locales/ben/ben.html">Bengali</a>
+                        <a href="locales/eng/locale.html">English</a>
+                        <a href="locales/hin/hin.html">Hindi(Devanagari)</a>
+                        <a href="locales/ory/ory.html">Odiya</a>
+                        <a href="locales/sat/sat.html">Santali(Ol Chiki)</a>
+                        </div>
+                </div>
+            </a>
+
+
+            <a class="navbar-brand">Multi Script Calculator</a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" 
+           aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+          </button>
+          
+           <div class="collapse navbar-collapse" id="#navbarTogglerDemo01">
+           <ul class="navbar-nav ms-auto">
+               <li class="navbar-item">
+                   <a class="nav-link" href="locales/ben/ben.html">Bengali
+                   </a>
+               </li>
+               <li class="navbar-item">
+                   <a class="nav-link" href="locales/eng/locale.html">English</a>
+               </li>
+               <li class="navbar-item">
+                   <a class="nav-link" href="locales/hin/hin.html">Hindi</a>
+               </li>
+               <li class="navbar-item">
+                <a class="nav-link" href="locales/ory/ory.html">Odiya</a>
+               </li>
+            <li class="navbar-item">
+                <a class="nav-link" href="locales/sat/sat.html">Santali</a>
+            </li>
+           </ul>
+           </div>
+        </nav>
+
+
    
 <p>Hi, This is a MultiScript Simple Calculator, where even the numbers and output also get translated into their respective language (If that language has its own writing system otherwise the numbers will always be in English numerals by default). These are some lists of all the languages which are currently supported, please feel free to add your language too if it is missing here.
 </p>
